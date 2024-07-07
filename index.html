@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cuanto falta próxima fecha</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+  
+</head>
+<body>
+    <!-- contenedor principal -->
+    <div class="container">
+        <h1>Calculadora de Fechas</h1>
+
+    <!-- contenedor para fecha actual -->
+        <div id="fechaActual" class="fechas">
+            <h2>Fecha y Hora Actual</h2>
+            <p id="fechaHoraActual">Calculando... </p>
+        
+        </div>
+
+    <!-- contenedor para tiempo restante fin de año -->
+
+        <div id="tiempoRestante" class="fechas">
+            <h2>Tiempo restante para Fin de Año</h2>
+            <p id="contadorTiempo">Calculando... </p>
+        
+        </div>
+
+
+        <div id="FechaIngresaUsuario" class="fechas">
+            <h2>Ingrese una fecha para calcular </h2>
+            <form id="fechaForm" action="">
+                <label for="fechaInput"> Ingrese una fecha</label>
+                <input type="date" id="fechaInput" name="fechaInput">
+                <button type="button" id="calcularBtn"> Calcular</button>
+            </form>
+
+            <p id="resultado">
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <footer> 
+        <div class="container">
+            <p>&copy; 2024 Susana Farías. </p>
+        </div>
+    </footer>
+    
+    <script src='assets/js/main.js'></script>
+</body>
+</html>
